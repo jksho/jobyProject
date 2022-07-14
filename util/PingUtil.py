@@ -3,7 +3,7 @@ from subprocess import DEVNULL
 import platform
 
 PING_COMMAND = 'ping'
-PING_COUNT = '1'
+PING_COUNT = '5'
 
 
 def isIPReachable(ipAddress):
