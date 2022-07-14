@@ -2,7 +2,7 @@
 
 ## Python Version
 
-`python -V`
+`python3 -V`
 
 current python version: **3.10.4**
 
@@ -59,7 +59,7 @@ In Eclipse or Pycharm, run the file `Main3.py`
 
 ### Performance Benchmark
 
-**For 50 IP Addresses, parallel execution using Python Multi Processing and Multireading **
+**For the two subnets of 506 IP Addresses, parallel execution using Python Multi Processing and Multireading **
 
 Multi-Processing Pool Size = 200, Total Time Taken:  13.2449947  seconds
 
