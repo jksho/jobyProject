@@ -54,7 +54,7 @@ or
 
 ### How to run
 
-In Eclipse or Pycharm, run the file `Main3.py`
+In VSCode, Eclipse or Pycharm, run the file `Main3.py`
 
 
 ### Performance Benchmark
