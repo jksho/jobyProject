@@ -30,7 +30,7 @@ if __name__ == '__main__':
     createIPList()
     start = timer()
     print("Multithreading Results:")
-    executeMultiThreaded() # 13.182942741997977  seconds ping 1 count 30.525291863000348  seconds ping 5 counts
+    executeMultiThreaded() # 30.525291863000348  seconds ping 5 counts
     end = timer()
     result = end - start
     print("Total Time Taken: ", result, " seconds")

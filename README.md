@@ -1,4 +1,4 @@
-# Ping IP address parallely using Python Multiprocessing and Multithreading
+# Ping IP address parallely using Python Multithreading
 
 ## Python Version
 
@@ -61,12 +61,8 @@ In Eclipse or Pycharm, run the file `Main3.py`
 
 **For the two subnets of 506 IP Addresses, parallel execution using Python Multi Processing and Multireading **
 
-Multi-Processing Pool Size = 200, Total Time Taken:  13.2449947  seconds
+Multi-Thread Pool Size = 300, Total Time Taken:  30.680755729999873  seconds
 
-Multi-Thread Pool Size = 300, Total Time Taken:  4.3145787  seconds
-
-
-**For 50 IP Addresses, sequential execution using Python**
-
-Total Time Taken:  163.009457  seconds
-# jobyProject
+### Additional Features
+MultiprocessingPing.py - allows to multiprocessing instead of multithreading, but it is slower
+SequentialPing.py - allows for sequential scan which is unbearably slow.
