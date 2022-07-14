@@ -1,11 +1,15 @@
 import unittest
 from util import FileUtil, PingUtil
 
-def test_ping(self):
-    test_ipAddress = "172.16.1.1"
-    flag = PingUtil.isIPReachable(test_ipAddress);
-    if flag:
-        formattedOut = "{}: pingable".format(ip)
-    else:
-        formattedOut = "{}: not pingable".format(ip)
-    return(formattedOut)
+class TestSum(unittest.TestCase):
+    def test_ping(self):
+        """
+        Test that it can ping 172.16.1.1 (gateway)
+        """
+        test_ipAddress = "172.16.1.1"
+        result = PingUtil.isIPReachable(test_ipAddress);
+        print(result)
+        self.assertEqual(result,True)
+        
+if __name__ == '__main__':
+    unittest.main()

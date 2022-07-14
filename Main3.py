@@ -1,5 +1,4 @@
 from timeit import default_timer as timer
-from typing_extensions import Self
 
 from createIPList.createDefault import generateIPList
 from parallel.SequentialPing import checkAllIpsSequentially
@@ -26,11 +25,10 @@ def executeMultiprocessing():
 
 
 if __name__ == '__main__':
-    test_ping(Self)
     createIPList()
     start = timer()
     print("Multithreading Results:")
-    executeMultiThreaded() # 13.182942741997977  seconds
+    executeMultiThreaded() # 13.182942741997977  seconds ping 1 count 30.525291863000348  seconds ping 5 counts
     end = timer()
     result = end - start
     print("Total Time Taken: ", result, " seconds")
