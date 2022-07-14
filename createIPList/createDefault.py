@@ -7,7 +7,7 @@ def generateIPList(fileName):
     if not ip_addr_range_2:
         # Default values for subnet #2
         ip_addr_range_2 = "171.16.2"    
-    excluded_octet = input('What last octet do you want to exclude in the scan? 1 to 254\ (default is 1)\n')
+    excluded_octet = input('What last octet do you want to exclude in the scan? 1 to 254 (default is 1)\n')
     if not excluded_octet:
         # Default values for final octet
         excluded_octet = "1"    
