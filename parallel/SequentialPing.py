@@ -1,6 +1,5 @@
 from util import FileUtil, PingUtil
 
-
 def checkAllIpsSequentially(fileName):
     ips = FileUtil.readIPsFromFile(fileName)
     for ip in ips:

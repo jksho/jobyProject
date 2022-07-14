@@ -6,7 +6,10 @@ NO_OF_PROCESS = 300
 
 def getIPPingStatus(ip):
     flag = PingUtil.isIPReachable(ip)
-    formattedOut = '%16s : %s' % (ip, flag)
+    
+    if flag:
+        formattedOut = '%16s : %s' % (ip, flag)
+        
     return formattedOut
 
 def checkAllIpsByMultiThreading(fileName):

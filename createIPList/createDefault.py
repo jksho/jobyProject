@@ -12,8 +12,8 @@ def generateIPList(fileName):
         # Default values for final octet
         excluded_octet = "1"    
     ignore = [0,int(excluded_octet)]
-    print ("excluding " + ip_addr_range_1 + "." + excluded_octet)
-    print ("excluding " + ip_addr_range_2 + "." + excluded_octet)
+    print ("excluding {}.{}\n".format(ip_addr_range_1,excluded_octet))
+    print ("excluding {}.{}\n".format(ip_addr_range_2,excluded_octet))
     scan_list = [ind for ind in range(255) if ind not in ignore]
     f = open(fileName, 'w+')
     for ip_last_octet in scan_list:
