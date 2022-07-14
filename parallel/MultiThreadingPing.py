@@ -8,7 +8,7 @@ def getIPPingStatus(ip):
     flag = PingUtil.isIPReachable(ip)
     
     if flag:
-        formattedOut = "{}:pingable".format(ip)
+        formattedOut = "{}: pingable".format(ip)
     else:
         formattedOut = "{}: not pingable".format(ip)
         
