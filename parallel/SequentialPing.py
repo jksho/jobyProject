@@ -8,5 +8,9 @@ def checkAllIpsSequentially(fileName):
 
 def pingIP(ip):
     flag = PingUtil.isIPReachable(ip);
-    formattedOut = '%16s : %s' % (ip, flag)
+    if flag:
+        formattedOut = "{}: pingable".format(ip)
+    else:
+        formattedOut = "{}: not pingable".format(ip)
+        
     print(formattedOut)
