@@ -4,9 +4,9 @@ from util import FileUtil, PingUtil
 class TestpingIP(unittest.TestCase):
     def test_ping(self):
         """
-        Test that it can ping 172.16.1.1 (gateway)
+        Test that it can ping 127.0.0.1 (gateway)
         """
-        test_ipAddress = "172.16.1.1"
+        test_ipAddress = "127.0.0.1"
         result = PingUtil.isIPReachable(test_ipAddress);
         self.assertEqual(result,True)
         
