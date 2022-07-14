@@ -62,7 +62,8 @@ In Eclipse or Pycharm, run the file `Main3.py`
 **For the two subnets of 506 IP Addresses, parallel execution using Python Multi Processing and Multireading **
 
 Multi-Thread Pool Size = 300, Total Time Taken:  30.680755729999873  seconds
-
+Multi-Process Pool Size = 200, Total Time Taken:   47.99978301899998  seconds
+Sequential 1 at a time, Total Time Taken:  7156.473847672  seconds
 ### Additional Features
 MultiprocessingPing.py - allows to multiprocessing instead of multithreading, but it is slower
 SequentialPing.py - allows for sequential scan which is unbearably slow.
