@@ -7,9 +7,12 @@ from parallel.MulitprocessingPing import checkAllIpsByMultiprocessing
 from test_unit_ip_scanner import test_ping
 
 FILE_NAME = "IPList/ipaddress-generated.txt"
-ip_addr_range_1 = "171.16.1"    # Default values for subnet #1
-ip_addr_range_2 = "171.16.2"    # Default values for subnet #2
-excluded_octet = "1"            # Default value for octet to exclude
+# Default values for subnet #1
+ip_addr_range_1 = "192.168.1"
+# Default values for subnet #2   
+ip_addr_range_2 = "192.168.2"
+ # Default value for octet to exclude
+excluded_octet = "56"          
 
 def createIPList():
     generateIPList(FILE_NAME)
