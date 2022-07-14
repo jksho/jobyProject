@@ -1,0 +1,2 @@
+pythonping
+xlsxwriter==1.2.7

@@ -1,20 +1,20 @@
-# Ping IP address parallely using Python  Multiprocessing and Multithreading
+# Ping IP address parallely using Python Multiprocessing and Multithreading
 
 ## Python Version
 
-`py -V` or `python -V`
+`python -V`
 
 current python version: **3.10.4**
 
 ## How to create a virtual environment
 
-syntax is `py -m venv` <enviornment name>
+syntax is `python3 -m venv` <enviornment name>
 
 In this case, the example is given below.
 
-* Step 1: Execute the command using `py -m venv env`
+* Step 1: Execute the command using `python3 -m venv env`
 
-* Step 2: Activate using the command `.\env\Scripts\activate`
+* Step 2: Activate using the command `source ./env/bin/activate`
 
 * Step 3: Verify using the command `where python`
 
@@ -39,11 +39,8 @@ You should consider upgrading via the 'python -m pip install --upgrade pip' comm
 ### Upgrade PIP version
 Execute the following command to upgrade to higher version of pip.
 
-`py -m pip install --upgrade pip`
+`python3 -m pip install --upgrade pip`
 
-or
-
-`python -m pip install --upgrade pip`
 
 ### Final step to install dependencies
 
@@ -57,7 +54,7 @@ or
 
 ### How to run
 
-In Eclipse or Pycharm, run the file `Main.py`
+In Eclipse or Pycharm, run the file `Main3.py`
 
 
 ### Performance Benchmark

@@ -4,7 +4,6 @@ from createIPList.createDefault import generateIPList
 from parallel.SequentialPing import checkAllIpsSequentially
 from parallel.MultiThreadingPing import checkAllIpsByMultiThreading
 from parallel.MulitprocessingPing import checkAllIpsByMultiprocessing
-from test_unit_ip_scanner import test_ping
 
 FILE_NAME = "IPList/ipaddress-generated.txt"
 # Default values for subnet #1
