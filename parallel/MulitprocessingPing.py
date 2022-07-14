@@ -5,8 +5,13 @@ from util import FileUtil, PingUtil
 NO_OF_PROCESS = 20
 
 def getIPPingStatus(ip):
-    flag = PingUtil.isIPReachable(ip);
-    formattedOut = '%16s : %s' % (ip, flag)
+    flag = PingUtil.isIPReachable(ip)
+    
+    if flag:
+        formattedOut = "{}: pingable".format(ip)
+    else:
+        formattedOut = "{}: not pingable".format(ip)
+        
     return formattedOut
 
 def checkAllIpsByMultiprocessing(fileName):
