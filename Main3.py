@@ -1,5 +1,6 @@
 from timeit import default_timer as timer
 
+from createIPList.createDefault import generateIPList
 from parallel.SequentialPing import checkAllIpsSequentially
 from parallel.MultiThreadingPing import checkAllIpsByMultiThreading
 from parallel.MulitprocessingPing import checkAllIpsByMultiprocessing
@@ -23,7 +24,7 @@ def executeMultiprocessing():
 
 
 if __name__ == '__main__':
-    # createIPList()
+    createIPList()
     start = timer()
     
     # print("Sequential Results")
