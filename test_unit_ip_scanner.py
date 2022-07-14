@@ -1,10 +1,9 @@
 import unittest
-#import ping3
-import util import FileUtil, PingUtil
+from util import FileUtil, PingUtil
 
 def test_ping(self):
     test_ipAddress = "172.16.1.1"
-    flag = PingUtil.isIPReachable(ip);
+    flag = PingUtil.isIPReachable(test_ipAddress);
     if flag:
         formattedOut = "{}: pingable".format(ip)
     else:

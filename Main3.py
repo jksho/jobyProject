@@ -1,10 +1,11 @@
 from timeit import default_timer as timer
+from typing_extensions import Self
 
 from createIPList.createDefault import generateIPList
 from parallel.SequentialPing import checkAllIpsSequentially
 from parallel.MultiThreadingPing import checkAllIpsByMultiThreading
 from parallel.MulitprocessingPing import checkAllIpsByMultiprocessing
-from 
+from test_unit_ip_scanner import test_ping
 
 FILE_NAME = "IPList/ipaddress-generated.txt"
 ip_addr_range_1 = "171.16.1"    # Default values for subnet #1
@@ -25,6 +26,7 @@ def executeMultiprocessing():
 
 
 if __name__ == '__main__':
+    test_ping(Self)
     createIPList()
     start = timer()
     print("Multithreading Results:")
