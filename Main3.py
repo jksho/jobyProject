@@ -29,8 +29,12 @@ def executeMultiprocessing():
 if __name__ == '__main__':
     createIPList()
     start = timer()
-    print("Multithreading Results:")
-    executeMultiThreaded() # 30.525291863000348  seconds ping 5 counts
+    # print("Sequential Results:")
+    # executeSequentiall() # 7156.473847672 seconds ping 5 counts
+    # print("MultiProcessing Results:")
+    # executeMultiprocessing() #  47.99978301899998 seconds ping 5 counts
+    print("MultiThreading Results:")
+    executeMultiThreaded() # 30.525291863000348 seconds ping 5 counts
     end = timer()
     result = end - start
     print("Total Time Taken: ", result, " seconds")
