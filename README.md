@@ -83,7 +83,7 @@ In VSCode, Eclipse or Pycharm, run the file `Main3.py`
 
 ### Performance Benchmark
 
-**For the two subnets of 506 IP Addresses, parallel execution using Python Multi Processing and Multireading **
+**For the two subnets of 506 IP Addresses, parallel execution using Python Multi Processing and Multireading and sequentially one IP Adress at a time**
 
 Multi-Thread Pool Size = 300, Total Time Taken:  30.680755729999873  seconds
 Multi-Process Pool Size = 200, Total Time Taken:   47.99978301899998  seconds
