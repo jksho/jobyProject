@@ -84,8 +84,8 @@ In VSCode, Eclipse or Pycharm, run the file `Main3.py`
 ### Performance Benchmark
 
 ** For the two subnets of 506 IP Addresses, parallel execution using Python Multi Processing and Multireading and sequentially one IP Adress at a time **
-- We exclude 192.168.1.0 and 192.168.2.0, because they the Network IDs
-- We exclude 192.168.1.255 and 192.168.1.255, because they are network broadcasts
+- We exclude 192.168.1.0 and 192.168.2.0, because they are the Network IDs
+- We exclude 192.168.1.255 and 192.168.2.255, because they are network broadcasts
 
 1. Multi-Thread Pool Size = 300, Total Time Taken:  30.680755729999873  seconds
 2. Multi-Process Pool Size = 200, Total Time Taken:   47.99978301899998  seconds
