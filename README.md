@@ -27,7 +27,7 @@ In the virtual environment use the following command,
 
 After executing, you may get the following details.
 
->(env) E:\pydev-1-2020\projectDependencyInstall>pip list
+>pip list
 Package    Version
 ---------- -------
 pip        19.0.3
