@@ -3,6 +3,7 @@ from subprocess import DEVNULL
 import platform
 
 PING_COMMAND = 'ping'
+# Number of Ping Count set to 5
 PING_COUNT = '5'
 
 
