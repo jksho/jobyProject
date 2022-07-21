@@ -31,24 +31,25 @@ After executing, you may get the following details.
 
 Package            Version
 ------------------ -------
-- ansible            5.8.0
-- ansible-core       2.12.6
-- atomicwrites       1.4.0
-- attrs              21.4.0
-- cffi               1.15.0
-- click              8.1.3
-- cryptography       37.0.2
-- Flask              1.1.1
-- importlib-metadata 4.11.4
-- itsdangerous       2.0.1
-- Jinja2             3.1.2
-- MarkupSafe         2.1.1
-- more-itertools     8.13.0
-- packaging          21.3
-- ping3              4.0.3
-- pip                22.1.2
-- pluggy             0.13.1
-- py                 1.11.0
+* ansible            5.8.0
+* ansible-core       2.12.6
+* atomicwrites       1.4.0
+* attrs              21.4.0
+* cffi               1.15.0
+* click              8.1.3
+* cryptography       37.0.2
+* Flask              1.1.1
+* importlib-metadata 4.11.4
+* itsdangerous       2.0.1
+* Jinja2             3.1.2
+* MarkupSafe         2.1.1
+
+* more-itertools     8.13.0
+* packaging          21.3
+* ping3              4.0.3
+* pip                22.1.2
+* pluggy             0.13.1
+* py                 1.11.0
 - pycparser          2.21
 - pyparsing          3.0.9
 - pytest             5.0.1
