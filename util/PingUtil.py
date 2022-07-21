@@ -6,7 +6,6 @@ PING_COMMAND = 'ping'
 # Number of Ping Count set to 5
 PING_COUNT = '5'
 
-
 def isIPReachable(ipAddress):
     param = '-n' if platform.system().lower() == 'windows' else '-c'
     
